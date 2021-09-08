@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">CattyCats</string>
+    <string name="back_button">Back button</string>
+    <string name="select_gif_image">Select Type</string>
+    <string name="filter">Filter</string>
+    <string name="select_filter">Select Filter</string>
+    <string name="text">Text</string>
+    <string name="text_color">Text Color</string>
+    <string name="text_size">Text Size</string>
+    <string name="clear">Clear</string>
+    <string name="submit">Submit</string>
+    <string name="image">Image</string>
+    <string name="gif">GIF</string>
+    <string name="blur">Blur</string>
+    <string name="mono">Mono</string>
+    <string name="sepia">Sepia</string>
+    <string name="negative">Negative</string>
+    <string name="paint">Paint</string>
+    <string name="pixel">Pixel</string>
+    <string name="tag">Tag</string>
+    <string name="christmascat">#christmascat</string>
+    <string name="two_cats">2cats</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="beer">Beer</string>
+    <string name="belfast">Belfast</string>
+    <string name="black">Black</string>
+    <string name="cat_in_a_faucet">Cat in a faucet</string>
+    <string name="curious">Curious</string>
+    <string name="cute">Cute</string>
+    <string name="fat">FAT</string>
+    <string name="friends">Friends</string>
+    <string name="nsfw">NSFW</string>
+    <string name="relaxed">Relaxed</string>
+    <string name="sleepy">Sleepy</string>
+    <string name="tabby">Tabby</string>
+    <string name="tired_cat">Tired cat</string>
+    <string name="dinner">dinner!</string>
+    <string name="disappointed">disappointed</string>
+    <string name="dj">dj</string>
+    <string name="dogstyle">dogstyle</string>
+    <string name="drunk">drunk</string>
+    <string name="evil">evil</string>
+    <string name="fail">fail</string>
+    <string name="fedora">fedora</string>
+    <string name="fluffy">fluffy</string>
+    <string name="flying">flying</string>
+    <string name="funny">funny</string>
+    <string name="furious">furious</string>
+    <string name="goofy">goofy</string>
+    <string name="group">group</string>
+    <string name="grumpy">grumpy</string>
+    <string name="guilty">guily</string>
+    <string name="gun">gun</string>
+    <string name="hug">hug</string>
+    <string name="kitten">kitten</string>
+    <string name="mad">mad</string>
+    <string name="money">money</string>
+    <string name="no">no</string>
+    <string name="nope">nope</string>
+    <string name="party">party</string>
+    <string name="resting">resting</string>
+    <string name="sad">sad</string>
+    <string name="seeya">seeya!</string>
+    <string name="shit">shit</string>
+    <string name="sleeping">sleeping</string>
+    <string name="star_wars">star wars</string>
+    <string name="trump">trump</string>
+    <string name="water">water</string>
+    <string name="wtf">wtf</string>
+    <string name="xena">xena</string>
+    <string name="zombie">zombie</string>
+    <string name="なら">なら</string>
+    <string-array name="image_menu">
+        <item>@string/beer</item>
+        <item>@string/belfast</item>
+        <item>@string/black</item>
+        <item>@string/cat_in_a_faucet</item>
+        <item>@string/christmascat</item>
+        <item>@string/curious</item>
+        <item>@string/cute</item>
+        <item>@string/dinner</item>
+        <item>@string/disappointed</item>
+        <item>@string/dj</item>
+        <item>@string/dogstyle</item>
+        <item>@string/drunk</item>
+        <item>@string/evil</item>
+        <item>@string/fail</item>
+        <item>@string/fat</item>
+        <item>@string/fedora</item>
+        <item>@string/fluffy</item>
+        <item>@string/flying</item>
+        <item>@string/four</item>
+        <item>@string/friends</item>
+        <item>@string/funny</item>
+        <item>@string/furious</item>
+        <item>@string/goofy</item>
+        <item>@string/group</item>
+        <item>@string/grumpy</item>
+        <item>@string/guilty</item>
+        <item>@string/gun</item>
+        <item>@string/hug</item>
+        <item>@string/kitten</item>
+        <item>@string/mad</item>
+        <item>@string/money</item>
+        <item>@string/no</item>
+        <item>@string/nope</item>
+        <item>@string/nsfw</item>
+        <item>@string/party</item>
+        <item>@string/relaxed</item>
+        <item>@string/resting</item>
+        <item>@string/sad</item>
+        <item>@string/seeya</item>
+        <item>@string/shit</item>
+        <item>@string/sleeping</item>
+        <item>@string/sleepy</item>
+        <item>@string/star_wars</item>
+        <item>@string/tabby</item>
+        <item>@string/three</item>
+        <item>@string/tired_cat</item>
+        <item>@string/trump</item>
+        <item>@string/two_cats</item>
+        <item>@string/water</item>
+        <item>@string/wtf</item>
+        <item>@string/xena</item>
+        <item>@string/zombie</item>
+        <item>@string/なら</item>
+    </string-array>
+    <string-array name="filter_menu">
+        <item>@string/blur</item>
+        <item>@string/mono</item>
+        <item>@string/sepia</item>
+        <item>@string/negative</item>
+        <item>@string/paint</item>
+        <item>@string/pixel</item>
+    </string-array>
+</resources>

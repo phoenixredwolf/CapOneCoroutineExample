@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.view.DashboardFragment">
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/swGIF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:text="@string/gif"
+        android:layout_margin="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/image_menu_tv"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/image_menu_tv"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/tag"
+        app:layout_constraintBottom_toTopOf="@id/filter_menu_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/swGIF">
+
+        <AutoCompleteTextView
+            android:id="@+id/imageAutoComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filter_menu_tv"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/select_filter"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/tilText"
+        app:layout_constraintTop_toBottomOf="@id/image_menu_tv"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <AutoCompleteTextView
+            android:id="@+id/filterAutoComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="none" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/text"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/filter_menu_tv">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilSize"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/text_size"
+        android:enabled="false"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilText">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etSize"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilColor"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="@string/text_color"
+        android:enabled="false"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tilSize">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etColor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:layout_margin="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnSubmit"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnClear"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
